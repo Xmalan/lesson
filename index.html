@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Сайт</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/slick.css" />
+        <link rel="stylesheet" href="css/slick-theme.css" />
+    </head>
+    <body>
+        <!-- Шапка сайта -->
+        <header>
+            <nav class="menu">
+                <ul>
+                    <li class="active"><a href="#">Главная</a></li>
+                    <li>
+                        <a href="#">О нас</a>
+                        <ul>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Тело сайта -->
+        <main>
+			<div class="slider">
+				<img src="https://img3.goodfon.ru/original/1920x1080/7/3e/koshki-milye-kotiki.jpg" alt="">
+				<img src="https://www.1zoom.me/big2/93/240224-Sepik.jpg" alt="">
+				<img src="https://images.wallpaperscraft.ru/image/single/krasivyj_kotik_kot_morda_pushistyj_93328_1920x1080.jpg" alt="">
+			</div>
+		</main>
+        <!-- Подвал сайта -->
+        <footer></footer>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/slick.js"></script>
+		<script>
+			$('document').ready(function(){
+				$('.slider').slick({
+					autoplay: true,
+					autoplaySpeed: 2000
+				})
+			})
+		</script>
+    </body>
+</html>
